@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "rewards",
+  "collectionName": "get_histories",
   "info": {
-    "name": "reward"
+    "name": "get_history"
   },
   "options": {
     "increments": true,
@@ -14,14 +14,8 @@
     "name": {
       "type": "string"
     },
-    "quantity": {
+    "get_points": {
       "type": "integer"
-    },
-    "points_use": {
-      "type": "integer"
-    },
-    "note": {
-      "type": "string"
     }
   }
 }

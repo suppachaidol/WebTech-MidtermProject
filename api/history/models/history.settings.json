@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "customers",
+  "collectionName": "histories",
   "info": {
-    "name": "Customer",
+    "name": "history",
     "description": ""
   },
   "options": {
@@ -12,20 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "username": {
+    "name": {
       "type": "string"
     },
-    "password": {
-      "type": "password"
+    "products_name": {
+      "type": "string"
     },
-    "num_products": {
+    "points_use": {
       "type": "integer"
-    },
-    "total_points": {
-      "type": "integer"
-    },
-    "date": {
-      "type": "datetime"
     }
   }
 }
